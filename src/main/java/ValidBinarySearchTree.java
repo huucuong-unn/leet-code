@@ -31,7 +31,7 @@ public class ValidBinarySearchTree {
             return true;
         }
 
-        if (!(left <= node.val && node.val <= right)) {
+        if (!(left < node.val && node.val < right)) {
             return false;
         }
 
